@@ -41,6 +41,9 @@ h1 {
     position: relative;
     margin: 0 auto;
     font-size: 1.6em;
+    word-break: initial;
+    padding: 0.1px;
+    overflow-y: inherit;
 }
 /* Attributes */
 h2 {
