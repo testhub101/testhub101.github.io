@@ -7,7 +7,6 @@ html {
 
 body {
     font-family: "Oxygen", sans-serif;
-    font-size: 1em;
     
     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
@@ -41,9 +40,7 @@ h1 {
     position: relative;
     margin: 0 auto;
     font-size: 1.6em;
-    word-break: initial;
     padding: 0.1px;
-    overflow-y: inherit;
 }
 /* Attributes */
 h2 {
