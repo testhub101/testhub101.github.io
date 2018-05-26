@@ -3,9 +3,7 @@ $(document).ready(function(){
     var startProductBarPos=-1;
     window.onscroll=function(){
         var bar = document.getElementById('nav');
-        if (bar == null) {
-            document.body.innerHTML = '';
-        }
+        
         if(startProductBarPos<0)startProductBarPos=findPosY(bar);
 
         if(pageYOffset>startProductBarPos){
